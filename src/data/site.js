@@ -11,7 +11,7 @@ export const site = {
     { label: 'Github', url: 'https://github.com/chab0114' },
     {
       label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/petro-chaban-624bb1349',
+      url: 'https://www.linkedin.com/in/petro-chaban/',
     },
   ],
   skills: [
