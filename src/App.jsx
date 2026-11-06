@@ -1,17 +1,10 @@
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Education from './components/Education'
+import { Routes, Route } from "react-router"
+import Home from './pages/Home'
 
 export default function App() {
   return (
-    <main>
-      <Hero />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-    </main>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+    </Routes>
   )
 }
