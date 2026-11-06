@@ -21,11 +21,10 @@ export const projects = [
     title: 'Crapr: Local Marketplace',
     summary:
       'Full-stack marketplace where people list and find unwanted items in their area.',
-    highlights: [
-      'Google OAuth sign-in and JWT-protected routes.',
-      'Transaction workflow from first interest to completion.',
-      'Location-based search with keyword and distance filters.',
-      'Deployed live with automatic updates on every push.',
+        highlights: [
+      'Solved the problem of safely connecting buyers and sellers by designing and building a full REST-API-integrated user experience, from account creation and authentication to item search and listing management.',
+      'Addressed data security needs by integrating JWT and Google OAuth for secure sign-in, protecting user data and private pages.',
+      'Resolved multi-step transaction complexity with a structured workflow from initial interest to completed exchange, supported by location-based search and filtering.',
     ],
     stack: ['React', 'Node.js', 'MongoDB', 'JWT', 'Google OAuth'],
     links: [],
