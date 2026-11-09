@@ -22,7 +22,7 @@ export default function ExperienceDetail() {
     return (
         <main>
             <p>
-                <Link to="/">
+                <Link to="/" className='underline'>
                     Back to home
                 </Link>
             </p>

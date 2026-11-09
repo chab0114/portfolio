@@ -1,4 +1,5 @@
 import { experience } from '../data/experience'
+import { Link } from 'react-router'
 
 // Work experience section
 export default function Experience() {
@@ -19,6 +20,15 @@ export default function Experience() {
               <li key={bullet}>{bullet}</li>
             ))}
           </ul>
+
+          {job.slug && (
+            <p>
+              <Link to={`/experience/${job.slug}`} className='underline'>
+                View details
+              </Link>
+            </p>
+          )}
+
         </article>
       ))}
     </section>
