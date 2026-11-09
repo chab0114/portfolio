@@ -2,6 +2,7 @@
 
 export const experience = [
   {
+    slug: "oag",
     title: "Full-Stack Developer (contract)",
     company: "Ottawa Art Gallery",
     location: "Ottawa",
@@ -14,6 +15,7 @@ export const experience = [
     ],
   },
   {
+    slug: "lgt",
     title: "Frontend Developer & Project Coordinator (contract)",
     company: "Let's Get Together (LGT), Nonprofit Organization",
     location: "Toronto, ON (Remote)",
