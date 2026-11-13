@@ -1,6 +1,22 @@
 
 
 export const projects = [
+  
+    {
+    id: 'oag-pwa',
+    type: 'case-study',
+    title: 'Ottawa Art Gallery: Accessible QR Code PWA',
+    summary:
+      'Accessible Progressive Web App for gallery visitors, with NaviLens integration for WCAG compliance.',
+    highlights: [
+      'Built an automated demographic survey and PDF reporting system that removed a $3,500/year third-party subscription.',
+      'Presented several QR code strategies to stakeholders and pivoted scope twice based on feedback.',
+      'Delivered with a 9-person Agile team using Git workflows and CI/CD.',
+    ],
+    stack: ['React', 'Node.js', 'PostgreSQL', 'NaviLens'],
+    links: [],
+  },
+  
   {
     id: 'lgt-booking',
     type: 'case-study',
@@ -16,6 +32,7 @@ export const projects = [
     links: [],
   },
   {
+    slug: 'crapr',
     id: 'crapr',
     type: 'code',
     title: 'Crapr: Local Marketplace',
